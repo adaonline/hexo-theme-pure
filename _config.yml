@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: Simba # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -88,7 +88,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -100,10 +100,11 @@ donate:
 
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+# 文章底部分享
 share:
   enable: true  # 是否启用分享
-  sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
-  mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
+  sites: weibo,qq,wechat  # PC端显示的分享图标
+  mobile_sites: weibo,qq,wechat  # 移动端显示的分享图标
 
 # Github
 # github: 
@@ -113,7 +114,7 @@ share:
 # 项目仓库信息（将会覆盖 github 项）
 repository:
   platform: github # 托管平台（github | gitee）
-  username: cofess # 用户名
+  username: adaonline # 用户名
 
 # Comment
 # Gitment
@@ -202,22 +203,22 @@ profile:
   articleSelfBlock: false # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
+  author: Simba
+  author_title: Developer
   author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  location: GuangZhou, China
+  follow: https://github.com/adaonline
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/adaonline
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
-    link_tooltip: true # enable the social link tooltip, options: true, false
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
+    link_tooltip: false # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
     Git: ★★★☆☆
